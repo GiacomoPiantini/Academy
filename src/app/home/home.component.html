@@ -1,0 +1,25 @@
+<div class="content">
+    <div class="toolbar">
+      <span class="h1"> FILM E PROGRAMMAZIONE </span>
+    </div>
+    <div class="background">
+      <div class="container">
+        <table *ngIf="!isLoading" mat-table [dataSource]="filmList" class="mat-elevation-z8" class="table">
+          <ng-container matColumnDef="title">
+            <th mat-header-cell *matHeaderCellDef> FILM </th>
+            <td mat-cell *matCellDef="let element"> {{element.title}} </td>
+          </ng-container>
+          <ng-container matColumnDef="data">
+            <th mat-header-cell *matHeaderCellDef> PROGRAMMAZIONE </th>
+            <td mat-cell *matCellDef="let element">{{startDate}} - {{endDate}}</td>
+          </ng-container>
+          <ng-container matColumnDef="sala">
+            <th mat-header-cell *matHeaderCellDef> SALA </th>
+            <td mat-cell *matCellDef="let element"> {{element.id}} </td>
+          </ng-container>
+          <tr mat-header-row *matHeaderRowDef="displayedColumns_left"></tr>
+          <tr style="cursor: pointer;" mat-row *matRowDef="let row; columns: displayedColumns_left;" [routerLink]="['/detail', row.id]"></tr>
+        </table>
+      </div>
+    </div>
+</div>
