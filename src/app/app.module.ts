@@ -9,7 +9,6 @@ import { MatTableModule } from '@angular/material/table';
 import { MovieDetailsComponent } from './movie-details/movie-details.component';
 import { HomeComponent } from './home/home.component';
 
-
 @NgModule({
   declarations: [
     AppComponent,

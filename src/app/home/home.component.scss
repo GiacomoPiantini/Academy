@@ -1,9 +1,9 @@
-.title{
+.title {
     color: blue;
     text-align: center;
 }
 
-.name{
+.name {
     color: blue;
     text-align: center;
 }
@@ -28,7 +28,7 @@
     margin-left: 300px;
 } 
 
-.h1{
+.h1 {
     line-height: 55px;
     color: black;
     font-size: 30px;
@@ -39,10 +39,10 @@ h3,
 h4,
 h5,
 h6 {
-margin: 8px;
+    margin: 8px;
 }
 
-.card{
+.card {
     border-radius: 10px 10px 10px 10px;
     text-align: center;
     width: 45%;
@@ -50,11 +50,11 @@ margin: 8px;
     padding: 2%;
 }
 
-.hypernym_title{
+.hypernym_title {
     color: blue;
 }
 
-.content{
+.content {
     background-size: 100%;
     height: 100%;
     background-color:white;
@@ -62,40 +62,40 @@ margin: 8px;
     height: 100%;
     width: 100%;
 }
-.container{
 
+.container {
     display: flex;
     flex-direction: column;
     height: 200px;
     width: 45%;
 }
 
-.spacer{
+.spacer {
     margin: 10px;
 }
 
 .circle {
-height: 40px;
-width: 40px;
-border-radius: 40px;
-margin: 8px;
-background-color: white;
-border: 1px solid #eeeeee;
-display: flex;
-justify-content: center;
-align-items: center;
-cursor: pointer;
-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
-transition: 1s ease-out;
+    height: 40px;
+    width: 40px;
+    border-radius: 40px;
+    margin: 8px;
+    background-color: white;
+    border: 1px solid #eeeeee;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    transition: 1s ease-out;
 }
 
 footer {
-margin-top: 8px;
-display: flex;
-align-items: center;
-line-height: 20px;
+    margin-top: 8px;
+    display: flex;
+    align-items: center;
+    line-height: 20px;
 }
 
-.background{
+.background {
     text-align: -webkit-center;
 }

@@ -8,6 +8,7 @@ import { MovieService } from '../services/movie.service';
   styleUrls: ['./home.component.scss']
 })
 export class HomeComponent {
+
   title = 'Programmazione_CineMille';
   public filmList: any[] = [];
   public displayedColumns_left: string[] = ['title', 'sala', 'data'];
@@ -37,4 +38,3 @@ export class HomeComponent {
     });
   }
 }
-

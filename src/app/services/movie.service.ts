@@ -2,7 +2,7 @@ import { HttpClient } from "@angular/common/http";
 import { Injectable } from "@angular/core";
 
 @Injectable()
-export class MovieService{
+export class MovieService {
     public constructor(private http: HttpClient){
     }
 
